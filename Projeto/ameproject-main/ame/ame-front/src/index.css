@@ -1,0 +1,25 @@
+body {
+    background-color: #F0F0F0;
+}
+
+.form-control, .form-select {
+    border: 1px solid black;
+}
+
+.cadastro {
+    width: 40%;
+}
+
+.formularios {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 768px) {
+    .formularios {
+        flex-direction: column;
+    }
+    .cadastro {
+        width: 100%;
+    }
+}

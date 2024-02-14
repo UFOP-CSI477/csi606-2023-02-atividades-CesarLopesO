@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução ao js</title>
+</head>
+<div id="data"></div>
+<body>
+    <h1>Introdução ao JS</h1>
+    <script>
+       function carregarDados(){
+        const nome = document.formDados.
+        nome.value;
+        const user = document.getElementById("user").value;
+        const idade = document.formDados.idade.value;
+
+        console.log(nome)
+        console.log(idade)
+
+       
+       const dados = {
+        nomeDaPessoa: nome,idade,endereco:{
+            rua:"36",
+            numero: 23,
+            bairro: "Loanda",
+            cidade:{
+                nome:"JOão Monlevade",
+                uf: "MG"
+
+
+            }
+
+        }
+       }
+    }
+    </script>
+    <form action="#" method="get" name="formaDados">
+        <input type="text" name="nome" id="user">
+        <input type="text" name="idade" id="age">
+        <input type="button" value="Carregar" onclick="carregarDados()">
+    </form>
+
+    
+</body>
+</html>
