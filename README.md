@@ -3,11 +3,11 @@
 
 ## Atualize os seus dados
 
-- Nome:
-- Matrícula:
-- Curso:
-- Semestre/Ano correntes:
-- Link para o seu GitHub:
+- Nome:César Lopes  
+- Matrícula: 20.1.8039  
+- Curso:Sistemas de Informação  
+- Semestre/Ano correntes:23/02
+- Link para o seu GitHub:github.com/cesarlopeso
 
 ## [Projeto final:](./Projeto/README.md)
 [cesarlopeso](https://github.com/CesarLopesO/)
