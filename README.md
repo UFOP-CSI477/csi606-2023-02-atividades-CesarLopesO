@@ -29,32 +29,4 @@ Funcionalidades
     Doações: Os responsáveis podem doar farinha para os beneficiados cadastrados.
     Registro de Transações: Todas as doações são registradas para rastreamento e transparência.
 
-Como Executar o Projeto
 
-    Backend:
-
-        Instale as dependências:
-
-        bash
-
-npm install @prisma/client express body-parser
-
-Execute o servidor:
-
-    node server.js
-
-Frontend:
-
-    Instale as dependências:
-
-    bash
-
-npm install axios react react-dom @types/react @types/react-dom
-
-Execute o aplicativo:
-
-sql
-
-    npm start
-
-Acesse o aplicativo em http://localhost:3000.
