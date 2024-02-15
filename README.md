@@ -12,4 +12,49 @@
 ## [Projeto final:](./Projeto/README.md)
 [cesarlopeso](https://github.com/CesarLopesO/)
 
-Apresente uma breve descrição do seu projeto.
+Projeto de Doação de Farinha
+Descrição
+
+Este projeto visa facilitar a doação de farinha para pessoas necessitadas. O sistema permite que responsáveis cadastrem-se e gerenciem a doação de farinha para beneficiados.
+Tecnologias Utilizadas
+
+    Backend: Node.js com Express e Prisma para interação com o banco de dados SQLite.
+    Frontend: React com TypeScript para a interface do usuário.
+    Banco de Dados: SQLite.
+
+Funcionalidades
+
+    Cadastro de Responsável: Permite que os responsáveis se cadastrem no sistema.
+    Gestão de Estoque: Os responsáveis podem gerenciar o estoque de farinha disponível.
+    Doações: Os responsáveis podem doar farinha para os beneficiados cadastrados.
+    Registro de Transações: Todas as doações são registradas para rastreamento e transparência.
+
+Como Executar o Projeto
+
+    Backend:
+
+        Instale as dependências:
+
+        bash
+
+npm install @prisma/client express body-parser
+
+Execute o servidor:
+
+    node server.js
+
+Frontend:
+
+    Instale as dependências:
+
+    bash
+
+npm install axios react react-dom @types/react @types/react-dom
+
+Execute o aplicativo:
+
+sql
+
+    npm start
+
+Acesse o aplicativo em http://localhost:3000.
