@@ -29,4 +29,42 @@ Funcionalidades
     Doações: Os responsáveis podem doar farinha para os beneficiados cadastrados.
     Registro de Transações: Todas as doações são registradas para rastreamento e transparência.
 
+Como Executar o Projeto
 
+    Backend:
+
+        Navegue até a pasta ame-backend:
+
+        bash
+
+cd ame-backend
+
+Instale as dependências:
+
+npm install
+
+Execute o servidor:
+
+arduino
+
+    npm run start
+
+Frontend:
+
+    Navegue até a pasta ame-front:
+
+    bash
+
+cd ame-front
+
+Instale as dependências:
+
+npm install
+
+Execute o aplicativo:
+
+arduino
+
+    npm run dev
+
+Acesse o aplicativo em http://localhost:3000.
