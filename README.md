@@ -45,15 +45,13 @@ npm install
 
 Execute o servidor:
 
-arduino
 
-    npm run start
+npm run start
 
 Frontend:
 
-    Navegue até a pasta ame-front:
+ Navegue até a pasta ame-front:
 
-    bash
 
 cd ame-front
 
@@ -63,8 +61,6 @@ npm install
 
 Execute o aplicativo:
 
-arduino
-
-    npm run dev
+npm run dev
 
 Acesse o aplicativo em http://localhost:3000.
